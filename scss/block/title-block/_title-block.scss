@@ -1,0 +1,47 @@
+.title-block {
+
+  // .title-block__title
+
+  &__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 0.8px;
+
+    @media (max-width:768px) {
+      font-size: 18px;
+      line-height: 24px;
+    }
+
+    // .title-block__title--color
+    &--color {
+      color: #3e9cdc;
+    }
+  }
+
+  // .title-block__subtitle
+
+  &__subtitle {
+    font-size: 18px;
+    line-height: 22px;
+    color: #bbbbbb;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    letter-spacing: -0.1px;
+
+    @media (max-width:768px) {
+      font-size: 16px;
+      line-height: 22px;
+      margin-bottom: 50px;
+    }
+  }
+
+  // .title-block--center
+
+  &--center {
+    text-align: center;
+  }
+
+}

@@ -1,0 +1,40 @@
+.icon {
+  width: 20px;
+  height: 20px;
+
+  // .icon--feedback
+
+  &--feedback {
+    fill: #3e9cdc;
+    width: 21px;
+    height: 20px;
+    margin: 0 10px -5px 0;
+  }
+
+  // .icon--payments
+
+  &--payments {
+    fill: #3e9cdc;
+    width: 21px;
+    height: 20px;
+    margin: 0 5px -5px 0;
+  }
+
+  // .icon--bar
+
+  &--bar {
+    fill: #ffffff;
+    width: 55px;
+    height: 55px;
+  }
+
+  // .icon--file
+
+  &--file {
+    fill: #272733;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    
+  }
+}

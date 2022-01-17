@@ -1,0 +1,23 @@
+.order-screen {
+  background: url("../img/min/bg-order-screen.webp") center center no-repeat, #272733;
+  
+  // .order-screen__wrap
+
+  &__inner {
+    width: 100%;
+    max-width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 119px;
+    padding-bottom: 150px;
+    margin-right: auto;
+    margin-left: auto;
+
+    @media (max-width:768px) {
+      padding-top: 90px;
+      padding-bottom: 50px;
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+  }
+}

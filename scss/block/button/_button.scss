@@ -1,0 +1,38 @@
+.btn {
+  border-radius: 4px;
+  padding: 15px 10px;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+
+  // .btn--primary
+
+  &--primary {
+    text-transform: uppercase;
+    background-color: #3e9cdc;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+
+    &:hover {
+      background-color: darken(#3e9cdc, 5%);
+      transition: background-color 0.2s ease;
+    }
+
+    &:active {
+      background-color: darken(#3e9cdc, 10%);
+      transition: background-color 0.2s ease;
+    }
+  }
+
+  // .btn--block
+
+  &--block {
+    display: block;
+    width: 100%;
+  }
+}

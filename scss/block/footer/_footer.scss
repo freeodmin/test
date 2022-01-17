@@ -1,0 +1,17 @@
+.footer {
+  background: #3d4050;
+
+  // .footer__inner
+
+  &__inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    padding: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

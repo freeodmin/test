@@ -1,0 +1,29 @@
+.first-screen {
+  background-image: url("../img/min/bg-first-screen.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  position: relative;
+  @media (max-width: 576px) {
+    background-image: url("../img/min/bg-first-screen--mobile.webp");
+  }
+
+  // .first-screen__wrap
+
+  &__inner {
+    width: 100%;
+    max-width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 202px;
+    padding-bottom: 203px;
+    margin-right: auto;
+    margin-left: auto;
+
+    @media (max-width: 576px) {
+      padding: 45% 10px 20% 10px;
+      display: flex;
+      align-items: flex-start;
+    } 
+  }
+}

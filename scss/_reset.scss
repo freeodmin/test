@@ -1,0 +1,170 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+
+  &::before,
+  &::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  scrollbar-color: #3e9cdc #3d4050;
+  scrollbar-width: thin;
+}
+
+body,
+html {
+  scrollbar-color: #3e9cdc #3d4050;
+  scrollbar-width: thin;
+}
+
+*::-webkit-scrollbar,
+body::-webkit-scrollbar,
+html::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+*::-webkit-scrollbar-track,
+body::-webkit-scrollbar-track,
+html::-webkit-scrollbar-track {
+  background: #3d4050;
+  border-radius: 3px;
+  margin: 3px;
+}
+
+*::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb {
+  background: #3e9cdc;
+  border-radius: 3px;
+  padding: 0 4px;
+  background-clip: padding-box;
+}
+
+html {
+  &::-webkit-scrollbar-thumb {
+    background: #3e9cdc;
+    border-radius: 3px;
+    padding: 0 4px;
+    background-clip: padding-box;
+  }
+
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+*:focus,
+input:focus,
+select:focus,
+label:focus,
+button:focus,
+*:after,
+input:after,
+select:after,
+label:after,
+button:after,
+*:before,
+input:before,
+select:before,
+label:before,
+button:before {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+a {
+  background-color: transparent;
+  transition: color 0.2s ease;
+
+  &:hover {
+    transition: color 0.2s ease;
+  }
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+img {
+  border-style: none;
+  max-width: 100%;
+  display: block;
+}
+
+button,
+input,
+select {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+[type="button"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+input[type=file]::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}

@@ -1,0 +1,32 @@
+.input-text {
+  width: 100%;
+  background: rgba(#ffffff, 0.85);
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  padding: 12px 10px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #272733;
+
+  &:focus {
+    box-shadow: 0 0 0 3px rgba(#3e9cdc, .45);
+    transition: box-shadow 0.2s ease;
+  }
+
+  &::placeholder {
+    font-size: 18px;
+    line-height: 22px;
+    color: #272733;
+    opacity: 1;
+  }
+
+  // .input-text--error
+
+  &--error {
+    box-shadow: 0 0 0 3px rgba(#ff0000, .45);
+
+    &:focus {
+      box-shadow: 0 0 0 3px rgba(#3e9cdc, .45);
+    }
+  }
+}

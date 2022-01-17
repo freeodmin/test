@@ -1,0 +1,31 @@
+.feedback {
+  display: flex;
+
+  // .feedback__inner
+
+  &__inner {
+    padding: 15px 0;
+  }
+
+  // .feedback__link
+
+  &__link {
+    display: inline-block;
+    font-size: 13px;
+    line-height: 16px;
+    color: #ffffff;
+    white-space: nowrap;
+    margin-bottom: 10px;
+    text-decoration: none;
+
+    &:not(:last-child) {
+      margin-right: 35px;
+    }
+
+    &:hover {
+      color: #3e9cdc;
+      cursor: pointer;
+    }
+  }
+
+}
